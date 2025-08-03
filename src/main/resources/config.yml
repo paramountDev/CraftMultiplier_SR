@@ -1,0 +1,7 @@
+enabled: true
+default-multiplier: 10
+
+custom-multipliers:
+  IRON_INGOT: 10
+  DIAMOND: 10
+  STICK: 10

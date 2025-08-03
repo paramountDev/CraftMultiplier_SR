@@ -1,0 +1,15 @@
+name: CraftMultiplier_SR
+version: '1.0'
+main: dev.paramountdev.craftMultiplier_SR.CraftMultiplier_SR
+api-version: '1.21'
+
+
+commands:
+  cm:
+    description: Основная команда CraftMultiplier
+    usage: /cm <reload|author>
+    aliases: [craftmultiplier]
+
+craftmultiplier.use:
+  description: Allows use of CraftMultiplier commands
+  default: op
