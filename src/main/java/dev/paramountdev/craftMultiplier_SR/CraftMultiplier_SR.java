@@ -35,6 +35,7 @@ public final class CraftMultiplier_SR extends JavaPlugin implements  CommandExec
         }
 
         loadMultipliers();
+        Bukkit.getPluginManager().registerEvents(new CrafterListener(defaultMultiplier, customMultipliers), this);
         Bukkit.getPluginManager().registerEvents(new CraftListener(this, defaultMultiplier, customMultipliers), this);
         getCommand("cm").setExecutor(this);
         getCommand("cm").setTabCompleter(this);
